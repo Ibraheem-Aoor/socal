@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Salcom - Your Trusted Source for Quality Petrochemical Products
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover premium petroleum and oil products at Salcom. We provide a wide range of solutions for industrial and commercial needs."
+    />
+    <meta
+      name="keywords"
+      content="petroleum, oils, petrochemical products, industrial oil, commercial oil, lubricants, fuel, quality petrochemicals"
+    />
+    <meta name="author" content="Salcom" />
+    <meta name="email" content="Info@socalpetroleumuae.com" />
+    <meta name="website" content="https://salcom.com" />
+    <meta name="Version" content="v1.0.0" />
+
+    <!-- Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Salcom - Quality Petroleum and Oil Products"
+    />
+    <meta
+      property="og:description"
+      content="Salcom offers a comprehensive range of petroleum products tailored for your industrial and commercial needs."
+    />
+    <meta property="og:image" content="/assets/images/offical_logo.png" />
+    <meta property="og:url" content="/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta
+      name="twitter:title"
+      content="Salcom - Your Trusted Source for Quality Petrochemical Products"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore Salcom for the best in petroleum and oil products designed for various industrial applications."
+    />
+    <meta name="twitter:image" content="/assets/images/offical_logo.png" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="/assets/images/landing/fav.png"
+      type="image/x-icon"
+    />
+
+    <!-- Additional meta tags for SEO and responsiveness -->
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="general" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/landing/fav.png"
+
+    />
+
+    <!-- Style Css-->
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+    <link href="assets/libs/animate.css/animate.min.css" rel="stylesheet" />
+    <!-- Bootstrap Css -->
+    <link
+      href="assets/css/bootstrap-green.min.css"
+      id="bootstrap-style"
+      class="theme-opt"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Icons Css -->
+    <link
+      href="assets/libs/@mdi/font/css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="assets/libs/@iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <!-- Style Css-->
+    <link
+      href="assets/css/style-green.min.css"
+      id="color-opt"
+      class="theme-opt"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      /* WhatsApp Icon Style */
+      .whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+        background-color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .whatsapp-icon img {
+        width: 35px;
+        height: 35px;
+        filter: invert(1);
+      }
+
+      .whatsapp-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .whatsapp-icon:active {
+        transform: scale(1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader -->
+
+    <!-- Navbar Start -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="index.html">
+          <img
+            loading="lazy"
+            src="assets/images/official_logo.png"
+            height="70"
+            class="logo-light-mode"
+            alt=""
+          />
+          <img
+            loading="lazy"
+            src="assets/images/offical_logo_light.png"
+            height="70"
+            class="logo-dark-mode"
+            alt=""
+          />
+        </a>
+        <!-- Logo End -->
+        <ul class="buy-button list-inline mb-0">
+          <li class="list-inline-item ps-1 mb-0">
+            <a onclick="toggleTheme();" href="javascript:void(0)">
+              <div class="btn btn-icon btn-pills btn-dark"><i class="uil uil-moon"></i></div>
+            </a>
+          </li>
+        </ul>
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu">
+            <li><a href="index.html" class="sub-menu-item">Home</a></li>
+            <li>
+              <a href="#about-section" class="sub-menu-item">About Us</a>
+            </li>
+            <li>
+              <a href="#services-section" class="sub-menu-item">Services</a>
+            </li>
+            <li>
+              <a href="#products-section" class="sub-menu-item">Products</a>
+            </li>
+            <li>
+              <a href="#partners-section" class="sub-menu-item">Partners</a>
+            </li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Start Hero Section -->
+    <section
+      class="bg-home pb-5 pb-sm-0 d-flex align-items-center bg-linear-gradient-primary"
+      id="hero-section"
+    >
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <div class="col-md-6">
+            <div
+              class="title-heading me-lg-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h1 class="heading fw-bold mb-3">
+                Powering the Future of Energy with
+                <span class="text-primary">SOCAL PETROLEUM</span>
+              </h1>
+              <p class="para-desc text-muted">
+                At <span class="text-primary">SOCAL PETROLEUM</span>, we are
+                committed to delivering world-class fuel and lubricant solutions
+                that empower industries, drive growth, and contribute to a
+                sustainable future. With advanced technologies and a focus on
+                quality, we fuel the progress of tomorrow's world.
+              </p>
+              <p class="para-desc text-muted">
+                Our mission aligns with the Kingdom's Vision 2030 as we innovate
+                and lead in the energy sector, ensuring high performance and
+                reliability in every product we deliver.
+              </p>
+              <p class="text-muted mb-0">
+                Explore our services or contact our expert team to learn more.
+                <a href="mailto:Info@socalpetroleumuae.com" class="text-primary"
+                  >Get in touch</a
+                >
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div class="position-relative ms-lg-5">
+              <div
+                class="bg-half-260 overflow-hidden rounded-md shadow-md jarallax"
+                data-jarallax
+                data-speed="0.5"
+                style="background: url('assets/images/landing/hero.webp')"
+              >
+                <div class="py-lg-5 py-md-0 py-5"></div>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+
+    <!-- START Mission, Vision, and Message Section -->
+    <section
+      class="section bg-light wow animate__animated animate__fadeInUp"
+      data-wow-delay=".1s"
+      id="about-section"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">Our Mission, Vision, and Message</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                At <span class="text-primary fw-bold">SOCAL PETROLEUM</span>, we
+                are driven by a clear mission, a strong vision, and a commitment
+                to providing high-quality energy solutions. Here's what defines
+                our journey.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Card 1: Mission -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-rocket"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>Our Mission</h5>
+                <p class="para text-muted mb-0">
+                  Our mission at SOCAL PETROLEUM is to dedicate all our efforts
+                  to providing high-tech, world-class products. We strive to
+                  empower our employees with the tools and knowledge necessary
+                  to meet both local and international demands while supporting
+                  the Kingdom's Vision 2030.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Vision -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex mt-4 mt-md-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-eye"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>Our Vision</h5>
+                <p class="para text-muted mb-0">
+                  We aim to position SOCAL PETROLEUM as a leader in the energy
+                  sector, offering innovative, sustainable, and reliable fuel
+                  and lubricant solutions that align with the Kingdom's Vision
+                  2030 and global market needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Our Message -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex mt-4 mt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-comment"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>Our Message</h5>
+                <p class="para text-muted mb-0">
+                  SOCAL PETROLEUM is dedicated to offering high-quality oil
+                  products at competitive prices. We specialize in exploration,
+                  production, and integrated renewable energy solutions, all
+                  while adhering to an environmentally responsible approach. Our
+                  focus aligns with Vision 2030, providing exceptional value
+                  while maintaining sustainability.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Mission, Vision, and Message Section -->
+
+    <!-- Start Sustainability Section -->
+    <section
+      class="pb-5 pb-sm-0 d-flex align-items-center"
+      id="sustainability-section"
+    >
+      <div class="container">
+        <div class="row mt-5 align-items-center">
+          <!-- Image Area -->
+          <div class="col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+            <div class="position-relative ms-lg-5">
+              <div
+                class="bg-half-260 overflow-hidden rounded-md shadow-md jarallax"
+                data-jarallax
+                data-speed="0.5"
+                style="
+                  background: url(https://img.freepik.com/free-photo/closeup-person-s-fingers-holding-small-green-leaf-against-sky-background_181624-1622.jpg?uid=R95899825&ga=GA1.1.1266518853.1715856292&semt=ais_hybrid);
+                "
+              >
+                <div class="py-lg-5 py-md-0 py-5"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Area -->
+          <div class="col-md-6">
+            <div
+              class="title-heading me-lg-4 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h1 class="heading fw-bold mb-3">
+                Building a Sustainable Future with
+                <span class="text-primary">SOCAL PETROLEUM</span>
+              </h1>
+              <p class="para-desc text-muted">
+                At <span class="text-primary">SOCAL PETROLEUM</span>,
+                sustainability is not just a goal; it's a commitment that drives
+                every aspect of our business. Our efforts are focused on
+                reducing environmental impact and embracing responsible business
+                practices, all while aligning with the Kingdom’s Vision 2030 for
+                a greener future.
+              </p>
+
+              <h5 class="fw-bold text-primary mt-4">Climate Action</h5>
+              <p class="para-desc text-muted">
+                We are dedicated to addressing the pressing issue of climate
+                change by actively reducing emissions. Through innovation and
+                operational efficiency, we aim to counter the negative effects
+                of climate change and promote a cleaner energy future.
+              </p>
+
+              <h5 class="fw-bold text-primary mt-4">
+                Sustainable Business Practices
+              </h5>
+              <p class="para-desc text-muted">
+                Sustainability is woven into the fabric of everything we do. It
+                motivates us to push the boundaries of creativity and technology
+                to create meaningful, innovative solutions for the world’s
+                energy and environmental challenges.
+              </p>
+
+              <h5 class="fw-bold text-primary mt-4">
+                Protecting the Natural Environment
+              </h5>
+              <p class="para-desc text-muted mb-0">
+                SOCAL PETROLEUM implements rigorous policies and procedures to
+                minimize the environmental impact of our operations. We are
+                committed to protecting natural ecosystems by following
+                sustainable practices that prevent harm to the environment.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </section>
+    <!-- End Sustainability Section -->
+
+    <!-- START Services Section -->
+    <section
+      class="section bg-light wow animate__animated animate__fadeInUp"
+      data-wow-delay=".1s"
+      id="services-section"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title mb-4">Our Services</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                At <span class="text-primary fw-bold">SOCAL PETROLEUM</span>, we
+                provide a wide range of high-quality oil and lubricant solutions
+                designed to meet the diverse needs of industries worldwide. Our
+                services are backed by cutting-edge technology, ensuring
+                reliability and sustainability in every product we deliver.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Card 1: Engine Oil -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-car"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>Engine Oil</h5>
+                <p class="para text-muted mb-0">
+                  Our engine oils are crafted to ensure optimal performance in
+                  combustion engines by reducing friction, minimizing wear, and
+                  maintaining engine temperature. By using the right oil for
+                  your engine, you extend its lifespan and enhance efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Mineral Grease Products -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex mt-4 mt-md-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-cog"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>High-Temperature Grease Products</h5>
+                <p class="para text-muted mb-0">
+                  Our high-temperature grease products offer superior protection
+                  against rust, corrosion, and extreme temperatures. Made from
+                  premium base oils and rust-resistant agents, they provide
+                  long-lasting lubrication for both ferrous and non-ferrous
+                  metals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Mineral Oils -->
+          <div class="col-lg-4 col-md-6 col-12 d-flex mt-4 mt-lg-0">
+            <div
+              class="card features feature-primary feature-full-bg rounded p-4 position-relative overflow-hidden border-0 flex-fill"
+            >
+              <span class="h1 icon-color">
+                <i class="uil uil-wall"></i>
+              </span>
+              <div class="card-body p-0 content">
+                <h5>Mineral Oils</h5>
+                <p class="para text-muted mb-0">
+                  Our mineral oils serve a variety of purposes, from heat
+                  conduction to hydraulic drives in cranes and presses. In
+                  addition, lighter types are utilized in the manufacturing of
+                  fabrics and textiles, providing versatile solutions for
+                  industrial needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Services Section -->
+
+    <!-- Start Products Section -->
+    <section
+      class="section wow animate__animated animate__fadeInUp"
+      id="products-section"
+      data-wow-delay=".1s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+              <h4 class="title fw-semibold my-4">
+                Our <strong class="text-primary">Products</strong>
+              </h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                Explore our wide range of oils, lubricants, and greases for
+                various applications.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Product List -->
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">SN450</h5>
+                <p class="text-muted mb-0">
+                  High quality oil for industrial use
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">SN350</h5>
+                <p class="text-muted mb-0">
+                  Engine oil for long-lasting performance
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">SN100</h5>
+                <p class="text-muted mb-0">
+                  Reliable oil for heavy-duty engines
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">15W40 CI</h5>
+                <p class="text-muted mb-0">High-performance engine oil</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">20W50 CH</h5>
+                <p class="text-muted mb-0">
+                  Superior oil for automotive engines
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 mt-4 pt-2">
+            <div class="card product-card border-0 shadow">
+              <div class="card-body text-center">
+                <h5 class="product-name">10W30 SL</h5>
+                <p class="text-muted mb-0">
+                  Versatile oil for various conditions
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Add more products here following the same structure -->
+        </div>
+      </div>
+    </section>
+    <!-- End Products Section -->
+    <!-- How It Work Start -->
+    <section class="section overflow-hidden" id="partners-section">
+      <!--end container-->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div
+              class="section-title text-center mb-4 pb-2 wow animate__animated animate__fadeInUp"
+              data-wow-delay=".1s"
+            >
+              <h4 class="title mb-4">What Our Clients Say About Hyper Store</h4>
+              <p class="text-muted para-desc mb-0 mx-auto">
+                Hear from some of our satisfied customers who have experienced
+                the benefits of
+                <span class="text-primary fw-bold">Hyper Store</span> firsthand.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+
+        <div class="row justify-content-center">
+          <div class="col-lg-12 mt-4">
+            <div class="tiny-three-item">
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_1.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_2.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_3.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_4.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_5.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+              <!-- Start Item -->
+              <div
+                class="tiny-slide wow animate__animated animate__fadeInUp"
+                data-wow-delay=".3s"
+              >
+                <div class="d-flex client-testi m-1">
+                  <img
+                    laoding="lazy"
+                    src="assets/images/landing/client_6.webp"
+                    class="avatar avatar-ex-large client-image rounded shadow m-auto"
+                    alt="Client 1"
+                  />
+                </div>
+              </div>
+              <!-- End Item -->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <!--end container-->
+    </section>
+    <!--end section-->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-py-60">
+              <div class="row">
+                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                  <a href="#" class="logo-footer">
+                    <img
+                      src="assets/images/offical_logo_light.png"
+                      height="70"
+                      alt="Hyper Store Logo"
+                    />
+                  </a>
+                  <p class="mt-4">
+                    Discover the Salcom advantage with our premium petroleum
+                    products and oils. Designed for automotive and industrial
+                    applications, our solutions enhance performance and
+                    longevity. Trust Salcom to fuel your success.
+                  </p>
+
+                  <ul
+                    class="list-unstyled social-icon foot-social-icon mb-0 mt-4 d-none"
+                  >
+                    <li class="list-inline-item mb-0">
+                      <a
+                        href="https://www.facebook.com/shreethemes"
+                        target="_blank"
+                        class="rounded"
+                      >
+                        <i
+                          class="uil uil-facebook-f align-middle"
+                          title="Facebook"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a
+                        href="https://www.instagram.com/shreethemes/"
+                        target="_blank"
+                        class="rounded"
+                      >
+                        <i
+                          class="uil uil-instagram align-middle"
+                          title="Instagram"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a
+                        href="https://twitter.com/shreethemes"
+                        target="_blank"
+                        class="rounded"
+                      >
+                        <i
+                          class="uil uil-twitter align-middle"
+                          title="Twitter"
+                        ></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a href="mailto:info@hyperstore.tech" class="rounded">
+                        <i
+                          class="uil uil-envelope align-middle"
+                          title="Email"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Company</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a href="#about-section" class="text-foot"
+                        ><i class="uil uil-angle-right-b me-1"></i> About Us</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#services-section" class="text-foot"
+                        ><i class="uil uil-angle-right-b me-1"></i> Services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#products-section" class="text-foot"
+                        ><i class="uil uil-angle-right-b me-1"></i> Products</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#partners-section" class="text-foot"
+                        ><i class="uil uil-angle-right-b me-1"></i> Partners</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <h5 class="footer-head">Contact</h5>
+                  <ul class="list-unstyled footer-list mt-4">
+                    <li>
+                      <a
+                        href="mailto:Info@socalpetroleumuae.com"
+                        class="text-foot"
+                        ><i class="uil uil-envelope me-1"></i
+                        >Info@socalpetroleumuae.com</a
+                      >
+                    </li>
+                    <li>
+                      <a href="phone:00971545999698" class="text-foot"
+                        ><i class="uil uil-phone me-1"></i>00971545999698</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="mailto:info@socalpetroleum.com"
+                        class="text-foot"
+                      >
+                        <i class="uil uil-map me-1"></i>
+                        C.L.L PETROLEUM SOCAL, ALBAHAR Building, Al Khabeesi,
+                        Plot Number 546-0, Dubai, UAE, Makani No: 32624 96064
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+
+      <div class="footer-py-30 footer-bar">
+        <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col-sm-12">
+              <div class="text-sm-center">
+                <p class="mb-0">
+                  ©
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  SOCAL PETROLEUM. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+            <!--end col-->
+
+            <!--end col-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+    <!--end footer-->
+
+    <!-- Footer End -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fs-5"
+      ><i class="uil uil-arrow-up"></i
+    ></a>
+    <!-- Back to top -->
+    <!-- WhatsApp Icon -->
+    <a
+      target="_blank"
+      href="https://wa.me/00971545999698"
+      class="whatsapp-icon"
+      target="_blank"
+      title="Chat with us on WhatsApp"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="35"
+        height="35"
+        style="enable-background: new 0 0 24 24"
+        xml:space="preserve"
+      >
+        <path
+          d="M16.6 14c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.2-.5-.5-1-1.1-1.4-1.7-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.1.2-.3.2-.4.1-.1.1-.3 0-.4-.1-.1-.6-1.3-.8-1.8-.1-.7-.3-.7-.5-.7h-.5c-.2 0-.5.2-.6.3-.6.6-.9 1.3-.9 2.1.1.9.4 1.8 1 2.6 1.1 1.6 2.5 2.9 4.2 3.7.5.2.9.4 1.4.5.5.2 1 .2 1.6.1.7-.1 1.3-.6 1.7-1.2.2-.4.2-.8.1-1.2l-.4-.2m2.5-9.1C15.2 1 8.9 1 5 4.9c-3.2 3.2-3.8 8.1-1.6 12L2 22l5.3-1.4c1.5.8 3.1 1.2 4.7 1.2 5.5 0 9.9-4.4 9.9-9.9.1-2.6-1-5.1-2.8-7m-2.7 14c-1.3.8-2.8 1.3-4.4 1.3-1.5 0-2.9-.4-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3c-2.4-4-1.2-9 2.7-11.5S16.6 3.7 19 7.5c2.4 3.9 1.3 9-2.6 11.4"
+        />
+      </svg>
+    </a>
+
+    <!-- javascript -->
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <!-- Parallax -->
+    <script src="assets/libs/jarallax/jarallax.min.js "></script>
+    <!-- Lightbox -->
+    <script src="assets/libs/tobii/js/tobii.min.js"></script>
+    <!-- Animation -->
+    <script src="assets/libs/wow.js/wow.min.js"></script>
+    <script>
+      const color_to_set = "green";
+      const theme_to_put = "style-dark";
+    </script>
+    <script src="assets/js/app.js?v=1.0.0"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>
